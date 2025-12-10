@@ -496,9 +496,7 @@ display:none;
 padding:0px;
 margin:0px;
 }
-body{
-color:red;
-}     
+    
                                              /* HEADING PAGE */
 
 
@@ -506,6 +504,8 @@ color:red;
 display:flex;
 justify-content:space-between;
 align-items:center;
+margin-left:5%;
+gap:33%;
 }
 .header-searchbar{
 display:none;
@@ -552,6 +552,7 @@ font-size:12px;
 .navbar-search{
 display:block;
 padding:30px 10px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .navbar-search__srcbox{
 width:300px;
@@ -606,7 +607,7 @@ margin-top:3%;
 display:flex;
 flex-wrap:wrap;
 margin-top:20px;
-width:96%;
+width:100%;
 }
 .interest-s2{
 flex-grow:2;
@@ -632,7 +633,7 @@ margin-top:3%;
 .container1{
 display:flex;
 flex-wrap:wrap;
-width:93%;
+width:100%;
 }
 .tour-s2{
 flex-grow:2;
@@ -640,8 +641,8 @@ flex-basis:50%;
 }
 
 .tour-s2 h4,.tour-s2 p,.tour-s2 h5{
-font-size:15px;
-padding-left:5px;
+font-size:14px;
+padding-right:7px;
 }
 
 .tour-s1__image{
@@ -652,7 +653,7 @@ border-radius:10px;
 
 .places{
 margin-left:5%;
-margin-top:3%;
+margin:3%;
 }
 
 .places-s1{
@@ -660,7 +661,7 @@ display:flex;
 flex-wrap:wrap;
 justify-content:center;
 align-items:center;
-width:90%;
+width:100%;
 }
 .places-f5{
 flex-grow:2;
@@ -672,14 +673,14 @@ border-radius:10px;
                                              /* CONTENT 4 places 2 */ 
 
 .places-s2{
-margin-left:5%;
+margin-left:3%;
 margin-top:3%;
 }
 
 .places-card{
 display:flex;
 flex-wrap:wrap;
-width:90%;
+width:99%;
 }
 .places-card1{
 flex-grow:2;
@@ -699,7 +700,7 @@ margin-top:15px;
 padding:5px;
 display:block;
 border:1px solid black;
-width:83%;
+width:90%;
 }
 .rideContainer-logo{
 display:block;
@@ -732,7 +733,7 @@ display:none;
 .awards{
 display:block;
 margin-left:5%;
-width:66%;
+width:72%;
 padding-left:10%;
 }
 
@@ -758,14 +759,14 @@ margin-left:1%;
 
 
 .collection{
-margin-left:15px;
+margin-left:5%;
 }
 
 .CollectContainer{
 display:flex;
 flex-wrap:wrap;
 justify-content:space-evenly;
-width:90%;
+width:100%;
 }
 
 .collection-s1{
@@ -773,7 +774,10 @@ flex-grow:2;
 flex-basis:50%;
 font-size:11px;
 }
-
+.collection-s1 p{
+padding:5% 0%;
+padding-right:5%;
+}
 .collection-s1__image{
 margin-left:2px;
 }
@@ -786,9 +790,8 @@ margin-left:2px;
 display:none;
 }
 .footer{
-padding-left:1%;
-width:63%;
-margin-left:5%;
+padding-left:7%;
+width:78%;
 }
 .creditpage{
 display:block;
